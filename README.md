@@ -1,1 +1,1 @@
-# Autonomous Balloon using RH_infinity controller and POMDP navigation 
+# Autonomous Balloon using H_infinity controller and POMDP navigation 
