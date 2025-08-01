@@ -3,4 +3,4 @@
 </div>
 
 
-Our paper is also  at: [Balloon_POMDP_ASMC.pdf](https://github.com/user-attachments/files/21555560/Balloon_POMDP_ASMC.pdf) . If our project supports your projects, please cite our work. Thank you!
+Our paper is available at: [Balloon_POMDP_ASMC.pdf](https://github.com/user-attachments/files/21555560/Balloon_POMDP_ASMC.pdf). If our project supports your projects, please cite our work. Thank you!
