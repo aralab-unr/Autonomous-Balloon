@@ -74,3 +74,27 @@ The control board is powered by an ESP8266 module, which communicates with the g
 
 For the setup of the station-keeping experiment, refer to the following figure: <br>
 <img width="1248" height="720" alt="balloonexperimentsetup" src="https://github.com/user-attachments/assets/8ede1cb6-69ea-47f0-8775-51933f8dafaa" />
+
+## Software Setup
+To setup the communication between the ESP 8266 and ROS2, we used the TCP protocol, the source code is in the Balloonexperiment, to build the source code in ROS2: 
+
+```shell
+# Step 1: Create and build a colcon workspace:
+$ mkdir -p ~/ros2_ws/src
+$ cd ~/ros2_ws/
+$ colcon build
+$ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
+
+# Step 2: Download the source file esp8266server  on the folder Balloonexperiment into your workspace
+$ cd ~/ros2_ws/src
+
+# Step 3: Build the colcon workspace for this package
+$ cd ~/ros2_ws
+$ colcon build
+```
+
+To setup the communication between the ESP 8266 and the PC running ROS2, run
+
+```shell
+$ ros2 run esp8266server server
+```
