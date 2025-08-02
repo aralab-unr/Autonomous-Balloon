@@ -10,7 +10,11 @@ Our paper is available at: [Balloon_POMDP_ASMC.pdf](https://github.com/user-atta
 This project provides a simulation platform for super-pressure balloons, featuring both a Simulink/MATLAB-based simulation and a quasi-physical model implemented in Gazebo/ROS 2. The experiments are conducted on a real platform weighing 75 grams, which is capable of tracking the desired altitude, estimating wind conditions, and making autonomous decisions.
 
 # Simulations
-We present results obtained from both Simulink/MATLAB and Gazebo/ROS 2 simulations, using parameters based on a real balloon to evaluate the effectiveness of the proposed method. The results are divided into two parts: (1) tracking the desired altitude, and (2) autonomous balloon behavior that estimates wind conditions and makes decisions to maintain a specific position.## Simulink/Matlab
+We present results obtained from both Simulink/MATLAB and Gazebo/ROS 2 simulations, using parameters based on a real balloon to evaluate the effectiveness of the proposed method. The results are divided into two parts: (1) tracking the desired altitude, and (2) autonomous balloon behavior that estimates wind conditions and makes decisions to maintain a specific position.
+
+# Simulink/Matlab
+#<img width="2676" height="1122" alt="matlabballoon" src="https://github.com/user-attachments/assets/eea2ea10-958c-423c-9d37-2d991463decf" />
+
 
 ## Gazebo/ROS 2
 
