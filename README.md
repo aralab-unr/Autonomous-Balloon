@@ -76,7 +76,7 @@ For the setup of the station-keeping experiment, refer to the following figure: 
 <img width="1248" height="720" alt="balloonexperimentsetup" src="https://github.com/user-attachments/assets/8ede1cb6-69ea-47f0-8775-51933f8dafaa" />
 
 ## Software Setup
-To setup the communication between the ESP 8266 and ROS2, we used the TCP protocol, the source code is in the Balloonexperiment, to build the source code in ROS2: 
+This guide explains how to set up communication between an ESP8266 microcontroller and a ROS2 system using the TCP protocol. The source code is located in the Balloonexperiment folder.
 
 ```shell
 # Step 1: Create and build a colcon workspace:
@@ -91,10 +91,4 @@ $ cd ~/ros2_ws/src
 # Step 3: Build the colcon workspace for this package
 $ cd ~/ros2_ws
 $ colcon build
-```
-
-To setup the communication between the ESP 8266 and the PC running ROS2, run
-
-```shell
-$ ros2 run esp8266server server
 ```
