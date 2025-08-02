@@ -32,17 +32,40 @@ The simulation on Gazebo/ROS 2 running on the following software setup:
 - Gazebo_ros_pkgs (sudo apt install ros-humble-gazebo-ros-pkgs)
 
 
+To set up the simulation on Gazebo/ROS 2 :
+
+```shell
+# Step 1: Create and build a colcon workspace:
+$ mkdir -p ~/ros2_ws/src
+$ cd ~/ros2_ws/
+$ colcon build
+$ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
+
+# Step 2: Download the source file on the folder rosballoon into your workspace
+$ cd ~/ros2_ws/src
+Download the folder rosballoon in the main branch
+
+# Step 3: Build the colcon workspace for this package
+$ cd ~/ros2_ws
+$ colcon build
+```
+
 To run the simulation on Gazebo/ROS 2 :
-```bash
-# for MARSIM example
-sudo apt-get install libglfw3-dev libglew-dev libncurses5-dev libncursesw5-dev
-# Eigen [version testd: 3.3.7-2] and soft link 
-sudo apt-get install libeigen3-dev       
-sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
-# dw for backward cpp
-sudo apt-get install libdw-dev
-# for ROS dependency
-sudo apt-get install ros-${YOUR-ROS-VERSION}-mavros* ros-${YOUR-ROS-VERSION}-pcl* ros-${YOUR-ROS-VERSION}-rosfmt
+
+```shell
+# Step 1: Create and build a colcon workspace:
+$ mkdir -p ~/ros2_ws/src
+$ cd ~/ros2_ws/
+$ colcon build
+$ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
+
+# Step 2: Download the source file on the folder rosballoon into your workspace
+$ cd ~/ros2_ws/src
+Download the folder rosballoon in the main branch
+
+# Step 3: Build the colcon workspace for this package
+$ cd ~/ros2_ws
+$ colcon build
 ```
 
 # Experiments
