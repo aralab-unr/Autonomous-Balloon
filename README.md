@@ -24,6 +24,7 @@ The visual model of the balloon in Gazebo is shown below:
 <div align="center">
   <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/75b7ff34-a48d-482f-b6ff-6f844e31712b" />
 </div>
+
 The simulation on Gazebo/ROS 2 running on the following software setup: 
 - Ubuntu 22.04 + ROS2 Humble
 - Gazebo 11
