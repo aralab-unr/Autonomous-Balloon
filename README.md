@@ -92,3 +92,11 @@ $ cd ~/ros2_ws/src
 $ cd ~/ros2_ws
 $ colcon build
 ```
+To enable communication, the ESP8266 and the PC running ROS2 must be connected to the same Wi-Fi network. Upload the Arduino sketch pomdpballoonesp8266.ino into the ESP 8266, with the corrected IP address of the ROS2 host in line 14. After uploading the code to the ESP8266, run the following command to start the ROS2 TCP server:
+
+
+```shell
+ros2 run esp8266server server
+```
+
+
