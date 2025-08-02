@@ -15,6 +15,7 @@ The balloon is designed in SolidWorks, and all parts are 3D-printed. A 36-inch l
 <img width="1517" height="720" alt="balloonsolidworks" src="https://github.com/user-attachments/assets/c2be34ca-33b6-4979-a677-2e40f3d77ab6" />
 The SolidWorks assembly and all the parts used can be found in the Balloon folder. <br> 
 
-The control board is powered by an ESP8266 module, which communicates with the ground station via the TCP protocol. For the indoor prototype, the balloon’s position is measured using the MTF-02P Optical & Range Sensor. All components are carried by a 36-inch latex balloon, with a total system weight of 75 grams.
+The control board is powered by an ESP8266 module, which communicates with the ground station via the TCP protocol. For the indoor prototype, the balloon’s position is measured using the MTF-02P Optical & Range Sensor. All components are carried by a 36-inch latex balloon, with a total system weight of 75 grams. <br> 
 
-
+For the setup of the station-keeping experiment, refer to the following figure: <br>
+<img width="1248" height="720" alt="balloonexperimentsetup" src="https://github.com/user-attachments/assets/8ede1cb6-69ea-47f0-8775-51933f8dafaa" />
