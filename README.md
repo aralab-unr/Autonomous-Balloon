@@ -100,4 +100,8 @@ ros2 run esp8266server server
 ros2 topic pub /cmdvel std_msgs/msg/Float64MultiArray "data: [1, 0, 0]"
 ```
 
+# Contact
+- [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
+- [Hung La](mailto:hla@unr.edu)
+
 
