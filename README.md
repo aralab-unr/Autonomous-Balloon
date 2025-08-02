@@ -50,6 +50,8 @@ $ cd ~/ros2_ws
 $ colcon build
 ```
 
+* Note that this project uses a custom plugin. Users need to replace the plugin path in the file /urdf/smcpomdpballoon.urdf.xacro at line 216. Replace: filename="/home/vanchung/dev_ws/install/smcpomdpballoon/lib/smcpomdpballoon/libsmcpomdpballoonplugin.so" with the correct path by changing the username to the name of your computer. Then rebuild the project again to run the simulation.
+  
 To run the simulation on Gazebo/ROS 2 :
 
 ```shell
