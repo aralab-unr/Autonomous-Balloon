@@ -11,4 +11,7 @@ This project provides a simulation platform for super-pressure balloons, featuri
 
 # Design and Hardware Setup
 The balloon is designed in SolidWorks, and all parts are 3D-printed. A 36-inch latex balloon is used in the project. The visual design in SolidWorks and the hardware setup are shown in the following figure:
+
 <img width="1517" height="720" alt="balloonsolidworks" src="https://github.com/user-attachments/assets/c2be34ca-33b6-4979-a677-2e40f3d77ab6" />
+
+The control board is handled by an ESP8266 module, which sends data to the station via the TCP protocol. The balloon’s position data for the indoor prototype is collected using the MTF-02P Optical & Range Sensor. All components are lifted by a 36-inch latex balloon. The total weight of the balloon is 75 grams
