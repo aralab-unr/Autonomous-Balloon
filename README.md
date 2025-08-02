@@ -41,7 +41,7 @@ $ cd ~/ros2_ws/
 $ colcon build
 $ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
 
-# Step 2: Download the source file on the folder rosballoon into your workspace
+# Step 2: Download the source file smcpomdpballoon  on the folder BalloonGazebo into your workspace
 $ cd ~/ros2_ws/src
 Download the folder rosballoon in the main branch
 
