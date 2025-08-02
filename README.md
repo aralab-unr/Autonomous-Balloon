@@ -43,7 +43,6 @@ $ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
 
 # Step 2: Download the source file smcpomdpballoon  on the folder BalloonGazebo into your workspace
 $ cd ~/ros2_ws/src
-Download the folder rosballoon in the main branch
 
 # Step 3: Build the colcon workspace for this package
 $ cd ~/ros2_ws
@@ -55,19 +54,13 @@ $ colcon build
 To run the simulation on Gazebo/ROS 2 :
 
 ```shell
-# Step 1: Create and build a colcon workspace:
-$ mkdir -p ~/ros2_ws/src
-$ cd ~/ros2_ws/
-$ colcon build
-$ echo "source ~/ros2_ws/devel/setup.bash" >> ~/.bashrc
+# Step 1: Run the workspace:
+$ ros2 launch smcpomdpballoon model.launch.py
 
-# Step 2: Download the source file on the folder rosballoon into your workspace
-$ cd ~/ros2_ws/src
-Download the folder rosballoon in the main branch
+# Step 2: Run the controller for the altitude tracking or station keeping
+$ ros2 run smcpomdpballoon smcpomdpballooncontroller
+$ ros2 run smcpomdpballoon stationkeeping
 
-# Step 3: Build the colcon workspace for this package
-$ cd ~/ros2_ws
-$ colcon build
 ```
 
 # Experiments
