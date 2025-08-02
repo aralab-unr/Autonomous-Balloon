@@ -24,6 +24,18 @@ The visual model of the balloon in Gazebo is shown below:
 <div align="center">
   <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/75b7ff34-a48d-482f-b6ff-6f844e31712b" />
 </div>
+To run the simulation on Gazebo/ROS 2 :
+```bash
+# for MARSIM example
+sudo apt-get install libglfw3-dev libglew-dev libncurses5-dev libncursesw5-dev
+# Eigen [version testd: 3.3.7-2] and soft link 
+sudo apt-get install libeigen3-dev       
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
+# dw for backward cpp
+sudo apt-get install libdw-dev
+# for ROS dependency
+sudo apt-get install ros-${YOUR-ROS-VERSION}-mavros* ros-${YOUR-ROS-VERSION}-pcl* ros-${YOUR-ROS-VERSION}-rosfmt
+```
 
 # Experiments
 ## Design and Hardware Setup
