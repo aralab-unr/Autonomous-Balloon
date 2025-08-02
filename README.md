@@ -21,7 +21,9 @@ The simulation files are located in the BalloonMatlab folder. The SPballoonASMC.
 
 ## Gazebo/ROS 2
 The visual model of the balloon in Gazebo is shown below:
-<img width="601" height="720" alt="image" src="https://github.com/user-attachments/assets/75b7ff34-a48d-482f-b6ff-6f844e31712b" />
+<div align="center">
+  <img width="601" height="720" alt="image" src="https://github.com/user-attachments/assets/75b7ff34-a48d-482f-b6ff-6f844e31712b" />
+</div>
 
 # Experiments
 ## Design and Hardware Setup
