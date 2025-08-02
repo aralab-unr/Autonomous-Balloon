@@ -57,8 +57,8 @@ To run the simulation on Gazebo/ROS 2 :
 # Step 1: Run the workspace:
 $ ros2 launch smcpomdpballoon model.launch.py
 
-# Step 2: Run the controller for the altitude tracking or station keeping
-$ ros2 run smcpomdpballoon smcpomdpballooncontroller
+# Step 2: Run the controller for the altitude holding or station keeping
+$ ros2 run smcpomdpballoon altitudeholding
 $ ros2 run smcpomdpballoon stationkeeping
 
 ```
