@@ -97,6 +97,7 @@ To enable communication, the ESP8266 and the PC running ROS2 must be connected t
 
 ```shell
 ros2 run esp8266server server
+ros2 topic pub /cmdvel std_msgs/msg/Float64MultiArray "data: [1, 0, 0]"
 ```
 
 
