@@ -3,7 +3,7 @@
 </div>
 
 
-Our paper is available at: [Balloon_POMDP_ASMC.pdf](https://github.com/user-attachments/files/21555560/Balloon_POMDP_ASMC.pdf). If our project supports your projects, please cite our work. Thank you!
+Our paper is available at: [Balloon_POMDP_ASMC.pdf](https://github.com/user-attachments/files/21745129/Balloon_POMDP_ASMC.pdf)
 
 # Highlights
 
@@ -99,9 +99,5 @@ To enable communication, the ESP8266 and the PC running ROS2 must be connected t
 ros2 run esp8266server server
 ros2 topic pub /cmdvel std_msgs/msg/Float64MultiArray "data: [1, 0, 0]"
 ```
-
-# Contact
-- [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
-- [Hung La](mailto:hla@unr.edu)
 
 
