@@ -13,7 +13,7 @@ We present results obtained from both Simulink/MATLAB and Gazebo/ROS 2 simulatio
 The diagram of the simulation in MATLAB/Simulink is presented as follows:
 
 <p align="center">
-  <img src="figures/matlabballoon.png" alt="matlabballoon" width="750">
+  <img src="figures/matlabballoon.png" alt="matlabballoon" width="1000">
 </p>
 
 The simulation files are located in the BalloonMatlab folder. The SPballoonASMC.slx file is used for tracking the desired altitude, while the SPballoonASMCPOMDPfull.slx file is for simulating the autonomous balloon.
@@ -21,7 +21,7 @@ The simulation files are located in the BalloonMatlab folder. The SPballoonASMC.
 ## Gazebo/ROS 2
 The visual model of the balloon in Gazebo is shown below:
 <p align="center">
-  <img src="figures/gazeboballoon.png" alt="gazeboballoon" width="750">
+  <img src="figures/gazeboballoon.png" alt="gazeboballoon" width="400">
 </p>
 
 
@@ -68,7 +68,7 @@ $ ros2 run smcpomdpballoon stationkeeping
 The balloon is designed in SolidWorks, and all parts are 3D-printed. A 36-inch latex balloon is used in the project. The visual design in SolidWorks and the hardware setup are shown in the following figure: 
 
 <p align="center">
-  <img src="figures/experimentballoon.png" alt="experimentballoon" width="750">
+  <img src="figures/experimentballoon.png" alt="experimentballoon" width="1000">
 </p>
 
 The SolidWorks assembly and all the parts used can be found in the Balloon folder. 
@@ -78,7 +78,7 @@ The control board is powered by an ESP8266 module, which communicates with the g
 For the setup of the station-keeping experiment, refer to the following figure:
 
 <p align="center">
-  <img src="figures/balloonsetup.png" alt="balloonsetup" width="750">
+  <img src="figures/balloonsetup.png" alt="balloonsetup" width="1000">
 </p>
 
 ## Software Setup
