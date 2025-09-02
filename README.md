@@ -12,15 +12,18 @@ We present results obtained from both Simulink/MATLAB and Gazebo/ROS 2 simulatio
 # Simulink/Matlab
 The diagram of the simulation in MATLAB/Simulink is presented as follows:
 
-<img width="2676" height="1122" alt="matlabballoon" src="https://github.com/user-attachments/assets/eea2ea10-958c-423c-9d37-2d991463decf" />
+<p align="center">
+  <img src="figures/matlabballoon.png" alt="matlabballoon" width="750">
+</p>
 
 The simulation files are located in the BalloonMatlab folder. The SPballoonASMC.slx file is used for tracking the desired altitude, while the SPballoonASMCPOMDPfull.slx file is for simulating the autonomous balloon.
 
 ## Gazebo/ROS 2
 The visual model of the balloon in Gazebo is shown below:
-<div align="center">
-  <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/75b7ff34-a48d-482f-b6ff-6f844e31712b" />
-</div>
+<p align="center">
+  <img src="figures/gazeboballoon.png" alt="gazeboballoon" width="750">
+</p>
+
 
 The simulation on Gazebo/ROS 2 running on the following software setup: 
 - Ubuntu 22.04 + ROS2 Humble
@@ -64,13 +67,19 @@ $ ros2 run smcpomdpballoon stationkeeping
 ## Design and Hardware Setup
 The balloon is designed in SolidWorks, and all parts are 3D-printed. A 36-inch latex balloon is used in the project. The visual design in SolidWorks and the hardware setup are shown in the following figure: 
 
-<img width="1517" height="720" alt="balloonsolidworks" src="https://github.com/user-attachments/assets/c2be34ca-33b6-4979-a677-2e40f3d77ab6" />
-The SolidWorks assembly and all the parts used can be found in the Balloon folder. <br> 
+<p align="center">
+  <img src="figures/experimentballoon.png" alt="experimentballoon" width="750">
+</p>
+
+The SolidWorks assembly and all the parts used can be found in the Balloon folder. 
 
 The control board is powered by an ESP8266 module, which communicates with the ground station via the TCP protocol. For the indoor prototype, the balloon’s position is measured using the MTF-02P Optical & Range Sensor. All components are carried by a 36-inch latex balloon, with a total system weight of 75 grams. <br> 
 
-For the setup of the station-keeping experiment, refer to the following figure: <br>
-<img width="1248" height="720" alt="balloonexperimentsetup" src="https://github.com/user-attachments/assets/8ede1cb6-69ea-47f0-8775-51933f8dafaa" />
+For the setup of the station-keeping experiment, refer to the following figure:
+
+<p align="center">
+  <img src="figures/balloonsetup.png" alt="balloonsetup" width="750">
+</p>
 
 ## Software Setup
 This guide explains how to set up communication between an ESP8266 microcontroller and a ROS2 system using the TCP protocol. The source code is located in the Balloonexperiment folder.
