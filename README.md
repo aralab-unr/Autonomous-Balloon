@@ -3,6 +3,8 @@
 </div>
 
 # Highlights
+Our paper has been accepted for publication in ICRA 2026. If our repository supports your academic projects, please cite our work. Thank you!
+[Balloon_POMDP_ASMC_ICRA.pdf](https://github.com/user-attachments/files/25022309/Balloon_POMDP_ASMC_ICRA.pdf)
 
 This project provides a simulation platform for super-pressure balloons, featuring both a Simulink/MATLAB-based simulation and a quasi-physical model implemented in Gazebo/ROS 2. The experiments are conducted on a real platform weighing 75 grams, which is capable of tracking the desired altitude, estimating wind conditions, and making autonomous decisions.
 
